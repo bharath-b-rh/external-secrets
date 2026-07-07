@@ -1,0 +1,1 @@
+Akeyless Validate now calls TokenFromSecretRef instead of NetworkValidate so egress proxies apply. Custom CA transport clones http.DefaultTransport rather than bare http.Transport{TLSClientConfig} which dropped proxy settings.
