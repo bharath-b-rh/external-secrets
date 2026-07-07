@@ -1,0 +1,1 @@
+Go nil Transport.Proxy means no proxy; cloning DefaultTransport is required. gRPC providers (Yandex, Nebius, Cloud.ru, GCP SM) are out of scope for HTTP_PROXY fixes.
